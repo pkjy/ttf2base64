@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "canvas": "^2.8.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "opentype.js": "^1.3.4"
+  },
+  "name": "ttf2base64",
+  "description": "针对一些字体加密的网站，传入字体的ttf包，输出各个glyph对应的内容(base64格式)。",
+  "version": "0.0.1",
+  "main": "koa.js",
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pkjy@outlook.com",
+  "license": "ISC"
+}
